@@ -1,12 +1,13 @@
 import React from "react";
-import FileUploadForm from "./components/FileUploadForm";
+import GlobalStyle from "./globalStyles";
+import Main from "./pages/main";
 
 function App() {
   return (
-    <div className='App'>
-      <h1>PDFMerger</h1>
-      <FileUploadForm />
-    </div>
+    <>
+      <GlobalStyle />
+      <Main />
+    </>
   );
 }
 
