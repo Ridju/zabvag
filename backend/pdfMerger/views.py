@@ -22,4 +22,4 @@ class FileUploadView(views.APIView):
 
         response = HttpResponse(FileWrapper(pdf_file), content_type="application/pdf")
         response['Content-Disposition'] = 'attachment: filename="merged.pdf"'
-        return response 
+        return response
