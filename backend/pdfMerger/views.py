@@ -10,7 +10,7 @@ from rest_framework.parsers import MultiPartParser, FormParser
 class FileUploadView(views.APIView):
     parser_classes = (MultiPartParser, FormParser)
 
-    def put(self, request):
+    def put(self, request, filename, format=None):
         pdf_file = io.BytesIO()
         PDFWriter = PyPDF2.PdfFileWriter()
         for file in request.FILES:
