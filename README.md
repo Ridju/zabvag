@@ -1,6 +1,6 @@
 # Zabvag - PDFMerger
 
-Zabvag is a Full-Stack app written with React and Django. It lets you merge any number of PDFs to one single PDF
+Zabvag is a Full-Stack app written with [React](https://reactjs.org/) and [Django](https://www.djangoproject.com/). It lets you merge any number of PDFs to one single PDF
 
 ## Installation
 
